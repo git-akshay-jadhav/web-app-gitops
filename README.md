@@ -24,11 +24,6 @@ This repository demonstrates a complete GitOps workflow using Docker, Kubernetes
 - ✅ Kubernetes manifests
 - ✅ Health checks and monitoring
 
-## Server Details
-
-- IP: 13.49.225.44
-- Docker Hub: akshay1669/web-app-gitops
-
 ## Usage
 
 ```bash
