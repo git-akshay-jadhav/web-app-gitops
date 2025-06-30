@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: akshay1669/web-app-gitops:latest
+        image: akshay1669/web-app-gitops:0c63ffba3612d9d982bd1aec6636100dcc7839ec
         ports:
         - containerPort: 80
         livenessProbe:
