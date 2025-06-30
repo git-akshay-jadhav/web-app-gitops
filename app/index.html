@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitOps Demo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to GitOps Demo!</h1>
+        <p>This app is deployed using GitOps workflow</p>
+        <p>Server IP: 13.49.225.44</p>
+        <p>Version: <span id="version">1.0.0</span></p>
+        <button onclick="updateVersion()">Update Version</button>
+        <div class="features">
+            <h3>Features:</h3>
+            <ul>
+                <li>✅ Docker containerized</li>
+                <li>✅ Kubernetes deployed</li>
+                <li>✅ GitOps with ArgoCD</li>
+                <li>✅ CI/CD with GitHub Actions</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
