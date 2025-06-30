@@ -17,7 +17,7 @@ spec:
             name: web-app-service
             port:
               number: 80
-  - host: 13.49.225.44
+  - host: 56.228.2.60
     http:
       paths:
       - path: /
